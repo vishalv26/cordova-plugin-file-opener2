@@ -38,7 +38,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	if ([command.arguments count] >= 3) {
 		showPreview = [[command.arguments objectAtIndex:2] boolValue];
 	}
-
+	showPreview = NO;
 	CDVViewController* cont = (CDVViewController*)[super viewController];
 	self.cdvViewController = cont;
 	NSString *uti = nil;
